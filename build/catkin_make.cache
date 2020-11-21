@@ -1,0 +1,2 @@
+ch4:ch5-6:ch7:ppf
+-DCATKIN_DEVEL_PREFIX=/home/zzz/pose_estimation/devel -DCMAKE_INSTALL_PREFIX=/home/zzz/pose_estimation/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/zzz/pose_estimation/devel
+
+Name: ch4
+Description: Description of ch4
+Version: 0.0.0
+Cflags: -I/home/zzz/pose_estimation/src/ch4/include -I/opt/ros/kinetic/share/sophus/../../include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lch4
+Requires: roscpp rospy std_msgs
