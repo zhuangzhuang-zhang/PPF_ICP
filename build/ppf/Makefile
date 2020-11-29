@@ -180,6 +180,33 @@ ppf_main/fast:
 	cd /home/zzz/pose_estimation/build && $(MAKE) -f ppf/CMakeFiles/ppf_main.dir/build.make ppf/CMakeFiles/ppf_main.dir/build
 .PHONY : ppf_main/fast
 
+src/hash_int.o: src/hash_int.cpp.o
+
+.PHONY : src/hash_int.o
+
+# target to build an object file
+src/hash_int.cpp.o:
+	cd /home/zzz/pose_estimation/build && $(MAKE) -f ppf/CMakeFiles/ppf_main.dir/build.make ppf/CMakeFiles/ppf_main.dir/src/hash_int.cpp.o
+.PHONY : src/hash_int.cpp.o
+
+src/hash_int.i: src/hash_int.cpp.i
+
+.PHONY : src/hash_int.i
+
+# target to preprocess a source file
+src/hash_int.cpp.i:
+	cd /home/zzz/pose_estimation/build && $(MAKE) -f ppf/CMakeFiles/ppf_main.dir/build.make ppf/CMakeFiles/ppf_main.dir/src/hash_int.cpp.i
+.PHONY : src/hash_int.cpp.i
+
+src/hash_int.s: src/hash_int.cpp.s
+
+.PHONY : src/hash_int.s
+
+# target to generate assembly for a file
+src/hash_int.cpp.s:
+	cd /home/zzz/pose_estimation/build && $(MAKE) -f ppf/CMakeFiles/ppf_main.dir/build.make ppf/CMakeFiles/ppf_main.dir/src/hash_int.cpp.s
+.PHONY : src/hash_int.cpp.s
+
 src/ppf.o: src/ppf.cpp.o
 
 .PHONY : src/ppf.o
@@ -248,6 +275,9 @@ help:
 	@echo "... test"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... src/hash_int.o"
+	@echo "... src/hash_int.i"
+	@echo "... src/hash_int.s"
 	@echo "... src/ppf.o"
 	@echo "... src/ppf.i"
 	@echo "... src/ppf.s"

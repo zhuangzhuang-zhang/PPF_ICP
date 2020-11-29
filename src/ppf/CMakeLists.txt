@@ -43,6 +43,7 @@ project(ppf)
  add_executable(ppf_main
      src/ppf_main.cpp
      src/ppf.cpp
+     src/hash_int.cpp
      )
  target_link_libraries(ppf_main
      ${catkin_LIBRARIES}
