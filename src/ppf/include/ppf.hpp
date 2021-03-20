@@ -9,9 +9,10 @@
 #include <fstream>
 #include <vector>
 
-#include <utils.hpp>
+#include "utils.hpp"
 #include "hash_int.hpp"
-#include <omp.h>
+#include "object6D.hpp"
+
 
 namespace ppf
 {
@@ -29,10 +30,10 @@ typedef struct THash
 } THash;
 
 
-
 class PPF6DDetector
 {
-  public:
+
+public:
 
 
   void clearTrainingModels();
@@ -43,7 +44,8 @@ class PPF6DDetector
                           cv::Vec4d& f);
 
   virtual ~PPF6DDetector();
-  private:
+private:
+
 
 
 };

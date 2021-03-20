@@ -3,6 +3,7 @@
 
 ppf/CMakeFiles/ppf_main.dir/src/hash_int.cpp.o
  /home/zzz/pose_estimation/src/ppf/include/hash_int.hpp
+ /home/zzz/pose_estimation/src/ppf/include/object6D.hpp
  /home/zzz/pose_estimation/src/ppf/include/ppf.hpp
  /home/zzz/pose_estimation/src/ppf/include/utils.hpp
  /home/zzz/pose_estimation/src/ppf/src/hash_int.cpp
@@ -434,6 +435,7 @@ ppf/CMakeFiles/ppf_main.dir/src/hash_int.cpp.o
  /usr/include/pcl-1.7/pcl/search/search.h
 ppf/CMakeFiles/ppf_main.dir/src/ppf.cpp.o
  /home/zzz/pose_estimation/src/ppf/include/hash_int.hpp
+ /home/zzz/pose_estimation/src/ppf/include/object6D.hpp
  /home/zzz/pose_estimation/src/ppf/include/ppf.hpp
  /home/zzz/pose_estimation/src/ppf/include/utils.hpp
  /home/zzz/pose_estimation/src/ppf/src/ppf.cpp

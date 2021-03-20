@@ -19,8 +19,6 @@ static inline void TNormalize3(cv::Vec3d& v)
 
 
 
-
-
 /*
  *a normalized vector
  *b normalized vector
